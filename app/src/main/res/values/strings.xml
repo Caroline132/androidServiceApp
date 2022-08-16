@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">SEG2105 Group 15 Final Project</string>
+    <string name="prompt_username">Username</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Login</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="action_create_user">Sign up</string>
+    <string name="action_create_customer">Create customer account</string>
+    <string name="action_create_employee">Create employee account</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="loginError">"Username or password incorrect, please try again :)"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="username">Username</string>
+    <string name="full_name">Full Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="register">Register</string>
+    <string name="employee">Employee</string>
+    <string name="customer">Customer</string>
+    <string name="checkUserTypeString">Choose the role you would like to register as</string>
+    <string name="checkedBothTypesUserMessage">You cannot check both boxes</string>
+    <string name="serviceSelected">Edit service</string>
+    <string name="serviceName">Service Name</string>
+    <string name="servicePrice">Service Price</string>
+    <string name="serviceEditRequirements">Enter new requirements sperated by commas</string>
+    <string name="serviceEditButton">Finish</string>
+    <string name="customerSearchEmployeesHint">Search for Branches</string>
+    <string name="viewRequests">View Request</string>
+    <string name="requestTitleCustomer">Your Requests</string>
+    <string name="employeeViewRequestTextView">Viewing Customer Request Details</string>
+    <string name="customerViewRequests">View your Requests</string>
+    <string name="pendingTextCustomer">Your Requests</string>
+    <string name="approvedTextCustomer">Your Approved Requests</string>
+    <string-array name="users">
+        <item>Customer</item>
+        <item>Employee</item>
+    </string-array>
+    <string name="title_activity_customer_branch_interaction">CustomerBranchInteraction</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="customerSearchButtonText">Search for Services</string>
+    <string name="postalAddressHint">Enter a postal address</string>
+    <string name="searchByAddress">Filter</string>
+    <string name="selectProvince">Select Province</string>
+    <string name="changeBranchButton">Change your Branch</string>
+    <string name="choosePFPText">Choose your new profile picture!</string>
+</resources>

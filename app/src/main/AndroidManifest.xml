@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.group15.seg2105finalproject">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SEG2105Group15FinalProject"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".branch.ViewRatings"
+            android:exported="false" />
+        <activity
+            android:name=".customer.FormListviewAdapter"
+            android:exported="false" />
+        <activity
+            android:name=".customer.FillForm"
+            android:exported="false" />
+        <activity
+            android:name=".customer.CustomerBranchInteraction"
+            android:exported="false"
+            android:label="@string/title_activity_customer_branch_interaction"
+            android:theme="@style/Theme.SEG2105Group15FinalProject.NoActionBar" />
+        <activity
+            android:name=".customer.CustomerSearchBranches"
+            android:exported="false" />
+        <activity
+            android:name=".customer.CustomerRequests"
+            android:exported="false" />
+        <activity
+            android:name=".customer.CustomerWelcomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".branch.ManageServiceRequests"
+            android:exported="false" />
+        <activity
+            android:name=".branch.EmployeeViewCustomerRequestDetails"
+            android:exported="false" />
+        <activity
+            android:name=".admin.EditService"
+            android:exported="true" />
+        <activity
+            android:name=".admin.ManageServices"
+            android:exported="true" />
+        <activity
+            android:name=".branch.ManageBranchServices"
+            android:exported="true" />
+        <activity
+            android:name=".main.Registration"
+            android:exported="true" />
+        <activity
+            android:name=".admin.AdminWelcomeActivity"
+            android:exported="true" />
+        <activity
+            android:name=".admin.DeleteUser"
+            android:exported="true" />
+        <activity
+            android:name=".branch.EmployeeWelcomeActivity"
+            android:exported="true" />
+        <activity
+            android:name=".branch.EditBranchProfile"
+            android:exported="true" />
+        <activity
+            android:name=".branch.BusinessHours"
+            android:exported="true" />
+        <activity
+            android:name=".main.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
